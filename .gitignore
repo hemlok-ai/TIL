@@ -6,7 +6,17 @@ desktop.ini
 .Spotlight-V100
 .Trashes
 
-# エディタやIDEの設定ファイル
+# 日記テンプレート
+template.md
+generate_today.py
+generate_by_date.py
+
+# Python のキャッシュや一時ファイルも無視
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode や環境ファイル
 .vscode/
-.idea/
-*.swp
+.env
